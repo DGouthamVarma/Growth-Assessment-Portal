@@ -1,0 +1,161 @@
+@charset "ISO-8859-1";
+body{
+	background-color: white;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+	margin:0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background-color: #1976d2;
+	position: relative;
+	display: inline-block;
+}
+.header h3{
+	margin-top: 50px;
+	color: white;
+	float: left;
+}
+.homelink{
+	margin-top: 40px;
+	color: white;
+	float: right;
+	margin-right:40px;
+	width: 135px;
+	padding-left: 10px;
+}
+.homelink:hover{
+	background-color:#eceff1;
+	color: #1976d2;
+	border-radius: 5px;
+	text-decoration: none;
+}
+#logoutbutton{
+	float: right;
+	margin-top: 40px;
+	margin-right: 100px;
+	width: 120px;
+	height: 30px;
+	background-color: #FFD05B;
+	border:none;
+	outline: 0;
+	border-radius: 20px;
+	color:#004ba0;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+}
+#logoutbutton:hover{
+	cursor: pointer;
+	background-color: #ef5350;
+	color: white;
+}
+.site-icon{
+	margin-top: 25px;
+	margin-left: 3%;
+	float: left;
+}
+#adminlogin{
+	width: 25%;
+	margin-left: 37.5%;
+	height: 300px;
+	margin-top: 100px;
+	background-color: #1976d2;
+	border-radius: 20px;
+	text-align: center;
+	color:white;
+	padding-top: 10px;
+}
+#adminlogin h2{
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.form-control{
+	width: 200px;
+	margin-bottom: 20px;
+	height: 30px;
+	background-color: white;
+	border:none;
+	border-radius: 5px;
+	outline: 0;
+	text-align: center;
+	color: #004ba0;
+}
+.login-button{
+	width: 150px;
+	margin-top: 10px;
+	height: 30px;
+	background-color: #FFD05B;
+	border:none;
+	outline: 0;
+	border-radius: 20px;
+	color:#004ba0;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+}
+.login-button:hover{
+	cursor: pointer;
+	background-color: green;
+	color: white;
+}
+
+.insertdiv{
+	width: 30%;
+	height: 400px;
+	margin-top: 25px;
+	margin-left: 2.5%;
+	float: left;
+	background-color: #1976d2;
+	border-radius: 10px;
+}
+.insertdiv h2{
+	color: white;
+	margin-left:60px;
+}
+.adddetails{
+	width: 80%;
+	margin-left: 10%;
+	height: 300px;
+	margin-top: 25px;
+	color: white;
+}
+.input{
+	margin-top: 10px;
+	width: 80%;
+	height: 30px;
+	border:none;
+	outline: 0;
+	background-color: white;
+	color: #004ba0;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.adddetails label{
+	color: white;
+	margin-left: 20px;
+	font-size: 18px;
+}
+.adddetails select{
+	width:120px;
+	height: 30px;
+	margin-top: 30px;
+	border-radius: 3px;
+	border:none;
+	outline: 0;
+	margin-left: 20px;
+}
+.date{
+	width: 135px;
+	height: 30px;
+	border-radius: 3px;
+	border:none;
+	outline: 0;
+	margin-left: 20px;
+}
+.gender{
+	margin-left: 20px;
+	margin-top: 10px;
+}

@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+body{
+	background-color: white;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+	margin:0;
+	padding: 0;
+}
+::-webkit-scrollbar{
+	width: 5px;
+	height: 5px;
+	background-color: #eceff1;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #1976d2;
+	border-radius: 20px;
+	height: 50px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background-color: #004ba0;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background-color: #1976d2;
+	position: relative;
+}
+.site-icon{
+	margin-top: 20px;
+	margin-left: 5%;
+	float: left;
+}
+#projects-div{
+	top: 100px;
+	bottom: 0;
+	position: absolute;
+	width: 85%;
+	margin-left: 15%;
+	overflow: auto;
+}
+.search{
+	width : 500px;
+	margin-left: 14%;
+	margin-top:25px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	color: white;
+	padding-left: 30px;
+}
+.search h3{
+	float:left;
+	padding-right: 20px;
+	margin-top: 15px;
+}
+.profile-div{
+	width: 200px;
+	height: 50px;
+	margin-left: 83%;
+	margin-top: 25px;
+	position: absolute;
+	color: white;
+}
+.profile-div h4{
+	float: left;
+	margin-right: 10px;
+}
+.profile-div img{
+	border-radius:40px;
+}
+.project{
+	width:80%;
+	margin-left:10%;
+	background-color:#eceff1;
+	margin-top:20px;
+	border-radius:20px;
+	padding-bottom:20px;
+	bottom:20px;
+}
+.project h2{
+	color:#004ba0;
+	margin-left:42.5%;
+}
+.reviews{
+	width:80%;
+	margin-left:10%;
+	background-color:#ffffff;
+	border-radius:10px;
+	margin-bottom:20px;
+}
+.heading{
+	color:#f57f17;
+	margin-left:5%;
+	display:inline-block;
+	margin-top:5px;
+}
